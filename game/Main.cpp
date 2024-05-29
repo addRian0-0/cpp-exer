@@ -13,14 +13,13 @@ void SolveQAndC(int, int);
 
 int main()
 {
-
     int option, numberQ;
     srand(time(NULL));
 
     printf("Juego de ahorcado :D...\n\n"
            "Digita la seccion que deseas jugar: \n\n"
            "\t1.- Historia\n"
-           "\t2.- Proximamente...\n");
+           "\t2.- Fisica, Quimica, Biologia...\n");
     scanf("%d", &option);
 
     printf("Cuantos acertijos de ahorcado quieres resolver de dicha seccion: ");
